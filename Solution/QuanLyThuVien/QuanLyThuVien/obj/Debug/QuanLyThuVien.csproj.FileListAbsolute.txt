@@ -1,0 +1,10 @@
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frm_Start.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
