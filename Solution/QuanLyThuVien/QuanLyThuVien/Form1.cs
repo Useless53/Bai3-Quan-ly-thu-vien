@@ -19,7 +19,10 @@ namespace QuanLyThuVien
 
         private void butBanDoc_Click(object sender, EventArgs e)
         {
-
+            BanDoc frm = new BanDoc();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void butSach_Click(object sender, EventArgs e)
