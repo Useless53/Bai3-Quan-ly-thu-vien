@@ -27,7 +27,10 @@ namespace QuanLyThuVien
 
         private void butSach_Click(object sender, EventArgs e)
         {
-
+            Sach frm = new Sach();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void butNXB_Click(object sender, EventArgs e)
