@@ -40,7 +40,10 @@ namespace QuanLyThuVien
 
         private void butPhieuMuon_Click(object sender, EventArgs e)
         {
-
+            PhieuMuon frm = new PhieuMuon();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private Connection connector = new Connection();
@@ -80,7 +83,11 @@ namespace QuanLyThuVien
 
         private void butLogOut_Click(object sender, EventArgs e)
         {
-
+            butHuongDan.Enabled = butBanDoc.Enabled = butNXB.Enabled = butPhieuMuon.Enabled = butSach.Enabled = false;
+            butHuongDan.Visible = butBanDoc.Visible = butNXB.Visible = butPhieuMuon.Visible = butSach.Visible = false;
+            textID.Text = textPass.Text = "";
+            panel1.Visible = true;
+            panel2.Visible = false;
         }
     }
 }
