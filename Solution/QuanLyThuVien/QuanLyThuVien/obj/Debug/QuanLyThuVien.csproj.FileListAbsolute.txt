@@ -44,3 +44,7 @@ C:\Users\Admin\Documents\GitHub\Le-Minh-Giang\Solution\QuanLyThuVien\QuanLyThuVi
 C:\Users\Admin\Documents\GitHub\Le-Minh-Giang\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\Le-Minh-Giang\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 C:\Users\Admin\Documents\GitHub\Le-Minh-Giang\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.BanDoc.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.NXBTL.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Sach.resources

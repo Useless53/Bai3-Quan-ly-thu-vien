@@ -35,8 +35,11 @@ namespace QuanLyThuVien
 
         private void butNXB_Click(object sender, EventArgs e)
         {
-
-        }
+               NXBTL frm = new NXBTL();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
+          }
 
         private void butPhieuMuon_Click(object sender, EventArgs e)
         {
