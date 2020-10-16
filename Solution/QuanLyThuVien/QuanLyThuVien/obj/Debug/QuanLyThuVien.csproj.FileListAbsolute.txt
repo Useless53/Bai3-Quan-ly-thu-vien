@@ -48,3 +48,5 @@ C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyTh
 C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.NXBTL.resources
 C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
 C:\Users\giang\OneDrive\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Sach.resources
+C:\Users\thong\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.NXBTL.resources
+C:\Users\thong\Documents\GitHub\Bai3-Quan-ly-thu-vien\Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
