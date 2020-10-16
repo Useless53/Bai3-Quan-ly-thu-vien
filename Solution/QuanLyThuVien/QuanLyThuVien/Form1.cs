@@ -15,6 +15,8 @@ namespace QuanLyThuVien
         public frm_Start()
         {
             InitializeComponent();
+            butHuongDan.Enabled = butBanDoc.Enabled = butNXB.Enabled = butPhieuMuon.Enabled = butSach.Enabled = true;
+            butHuongDan.Visible = butBanDoc.Visible = butNXB.Visible = butPhieuMuon.Visible = butSach.Visible = true;
         }
 
         private void butBanDoc_Click(object sender, EventArgs e)
@@ -48,9 +50,6 @@ namespace QuanLyThuVien
             frm.Close();
             frm.Dispose();
         }
-
-        private Connection connector = new Connection();
-        private DataTable table;
         
 
 
