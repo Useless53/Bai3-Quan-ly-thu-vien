@@ -43,6 +43,7 @@
             this.radAdd2 = new System.Windows.Forms.RadioButton();
             this.radEdit2 = new System.Windows.Forms.RadioButton();
             this.radView2 = new System.Windows.Forms.RadioButton();
+            this.label9 = new System.Windows.Forms.Label();
             this.butFree2 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.listView2 = new System.Windows.Forms.ListView();
@@ -74,7 +75,6 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -94,7 +94,7 @@
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(895, 506);
             this.panel1.TabIndex = 1;
@@ -110,7 +110,7 @@
             this.panel8.Controls.Add(this.label16);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel8.Location = new System.Drawing.Point(520, 297);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(375, 209);
             this.panel8.TabIndex = 17;
@@ -120,7 +120,7 @@
             // 
             this.textUnique.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textUnique.Location = new System.Drawing.Point(168, 121);
-            this.textUnique.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textUnique.Margin = new System.Windows.Forms.Padding(4);
             this.textUnique.Name = "textUnique";
             this.textUnique.ReadOnly = true;
             this.textUnique.Size = new System.Drawing.Size(185, 22);
@@ -130,7 +130,7 @@
             // 
             this.textBCID2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBCID2.Location = new System.Drawing.Point(168, 84);
-            this.textBCID2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBCID2.Margin = new System.Windows.Forms.Padding(4);
             this.textBCID2.Name = "textBCID2";
             this.textBCID2.ReadOnly = true;
             this.textBCID2.Size = new System.Drawing.Size(185, 22);
@@ -144,9 +144,9 @@
             this.label14.Location = new System.Drawing.Point(27, 121);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(66, 19);
+            this.label14.Size = new System.Drawing.Size(114, 19);
             this.label14.TabIndex = 17;
-            this.label14.Text = "Đơn giá";
+            this.label14.Text = "Giá trị cá biệt";
             // 
             // label15
             // 
@@ -185,7 +185,7 @@
             this.panel7.Controls.Add(this.label9);
             this.panel7.Controls.Add(this.butFree2);
             this.panel7.Location = new System.Drawing.Point(291, 304);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(225, 198);
             this.panel7.TabIndex = 16;
@@ -193,7 +193,7 @@
             // textSearch2
             // 
             this.textSearch2.Location = new System.Drawing.Point(21, 126);
-            this.textSearch2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearch2.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch2.Name = "textSearch2";
             this.textSearch2.Size = new System.Drawing.Size(173, 22);
             this.textSearch2.TabIndex = 9;
@@ -202,7 +202,7 @@
             // 
             this.butSearch2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butSearch2.Location = new System.Drawing.Point(21, 158);
-            this.butSearch2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearch2.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch2.Name = "butSearch2";
             this.butSearch2.Size = new System.Drawing.Size(175, 28);
             this.butSearch2.TabIndex = 8;
@@ -214,7 +214,7 @@
             // 
             this.butDel2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDel2.Location = new System.Drawing.Point(107, 81);
-            this.butDel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDel2.Margin = new System.Windows.Forms.Padding(4);
             this.butDel2.Name = "butDel2";
             this.butDel2.Size = new System.Drawing.Size(89, 37);
             this.butDel2.TabIndex = 5;
@@ -228,7 +228,7 @@
             this.radAdd2.BackColor = System.Drawing.Color.Transparent;
             this.radAdd2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd2.Location = new System.Drawing.Point(21, 63);
-            this.radAdd2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radAdd2.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd2.Name = "radAdd2";
             this.radAdd2.Size = new System.Drawing.Size(71, 23);
             this.radAdd2.TabIndex = 4;
@@ -242,7 +242,7 @@
             this.radEdit2.BackColor = System.Drawing.Color.Transparent;
             this.radEdit2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radEdit2.Location = new System.Drawing.Point(21, 91);
-            this.radEdit2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radEdit2.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit2.Name = "radEdit2";
             this.radEdit2.Size = new System.Drawing.Size(57, 23);
             this.radEdit2.TabIndex = 4;
@@ -257,7 +257,7 @@
             this.radView2.Checked = true;
             this.radView2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radView2.Location = new System.Drawing.Point(21, 34);
-            this.radView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radView2.Margin = new System.Windows.Forms.Padding(4);
             this.radView2.Name = "radView2";
             this.radView2.Size = new System.Drawing.Size(64, 23);
             this.radView2.TabIndex = 2;
@@ -266,12 +266,24 @@
             this.radView2.UseVisualStyleBackColor = false;
             this.radView2.CheckedChanged += new System.EventHandler(this.radView2_CheckedChanged);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(83, 5);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(69, 23);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Chế độ";
+            // 
             // butFree2
             // 
             this.butFree2.Enabled = false;
             this.butFree2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butFree2.Location = new System.Drawing.Point(107, 37);
-            this.butFree2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butFree2.Margin = new System.Windows.Forms.Padding(4);
             this.butFree2.Name = "butFree2";
             this.butFree2.Size = new System.Drawing.Size(89, 37);
             this.butFree2.TabIndex = 0;
@@ -284,7 +296,7 @@
             this.panel6.Controls.Add(this.listView2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel6.Location = new System.Drawing.Point(0, 297);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(283, 209);
             this.panel6.TabIndex = 15;
@@ -300,7 +312,7 @@
             this.listView2.GridLines = true;
             this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(0, 0);
-            this.listView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView2.Margin = new System.Windows.Forms.Padding(4);
             this.listView2.MultiSelect = false;
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(283, 209);
@@ -316,7 +328,7 @@
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Đơn giá";
+            this.columnHeader4.Text = "Giá trị cá biệt";
             this.columnHeader4.Width = 106;
             // 
             // panel5
@@ -327,7 +339,7 @@
             this.panel5.Controls.Add(this.panel3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(895, 297);
             this.panel5.TabIndex = 14;
@@ -349,7 +361,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(520, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(375, 297);
             this.panel2.TabIndex = 13;
@@ -358,7 +370,7 @@
             // 
             this.textDate2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textDate2.Location = new System.Drawing.Point(168, 192);
-            this.textDate2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textDate2.Margin = new System.Windows.Forms.Padding(4);
             this.textDate2.Name = "textDate2";
             this.textDate2.ReadOnly = true;
             this.textDate2.Size = new System.Drawing.Size(185, 22);
@@ -368,7 +380,7 @@
             // 
             this.textDate1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textDate1.Location = new System.Drawing.Point(168, 151);
-            this.textDate1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textDate1.Margin = new System.Windows.Forms.Padding(4);
             this.textDate1.Name = "textDate1";
             this.textDate1.ReadOnly = true;
             this.textDate1.Size = new System.Drawing.Size(185, 22);
@@ -378,7 +390,7 @@
             // 
             this.textNote.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textNote.Location = new System.Drawing.Point(168, 234);
-            this.textNote.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textNote.Margin = new System.Windows.Forms.Padding(4);
             this.textNote.Name = "textNote";
             this.textNote.ReadOnly = true;
             this.textNote.Size = new System.Drawing.Size(185, 22);
@@ -388,7 +400,7 @@
             // 
             this.textReaderID.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textReaderID.Location = new System.Drawing.Point(168, 108);
-            this.textReaderID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textReaderID.Margin = new System.Windows.Forms.Padding(4);
             this.textReaderID.Name = "textReaderID";
             this.textReaderID.ReadOnly = true;
             this.textReaderID.Size = new System.Drawing.Size(185, 22);
@@ -398,7 +410,7 @@
             // 
             this.textBCID1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.textBCID1.Location = new System.Drawing.Point(168, 66);
-            this.textBCID1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBCID1.Margin = new System.Windows.Forms.Padding(4);
             this.textBCID1.Name = "textBCID1";
             this.textBCID1.ReadOnly = true;
             this.textBCID1.Size = new System.Drawing.Size(185, 22);
@@ -490,7 +502,7 @@
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.butFree);
             this.panel4.Location = new System.Drawing.Point(291, 9);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(225, 207);
             this.panel4.TabIndex = 12;
@@ -499,7 +511,7 @@
             // textSearch
             // 
             this.textSearch.Location = new System.Drawing.Point(21, 128);
-            this.textSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearch.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(173, 22);
             this.textSearch.TabIndex = 9;
@@ -508,7 +520,7 @@
             // 
             this.butSearch.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butSearch.Location = new System.Drawing.Point(21, 160);
-            this.butSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearch.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(175, 28);
             this.butSearch.TabIndex = 8;
@@ -520,7 +532,7 @@
             // 
             this.butDel.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDel.Location = new System.Drawing.Point(107, 84);
-            this.butDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDel.Margin = new System.Windows.Forms.Padding(4);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(89, 37);
             this.butDel.TabIndex = 5;
@@ -534,7 +546,7 @@
             this.radAdd.BackColor = System.Drawing.Color.Transparent;
             this.radAdd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd.Location = new System.Drawing.Point(21, 65);
-            this.radAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radAdd.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd.Name = "radAdd";
             this.radAdd.Size = new System.Drawing.Size(71, 23);
             this.radAdd.TabIndex = 4;
@@ -548,7 +560,7 @@
             this.radEdit.BackColor = System.Drawing.Color.Transparent;
             this.radEdit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radEdit.Location = new System.Drawing.Point(21, 94);
-            this.radEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radEdit.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit.Name = "radEdit";
             this.radEdit.Size = new System.Drawing.Size(57, 23);
             this.radEdit.TabIndex = 4;
@@ -563,7 +575,7 @@
             this.radView.Checked = true;
             this.radView.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radView.Location = new System.Drawing.Point(21, 37);
-            this.radView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radView.Margin = new System.Windows.Forms.Padding(4);
             this.radView.Name = "radView";
             this.radView.Size = new System.Drawing.Size(64, 23);
             this.radView.TabIndex = 2;
@@ -589,7 +601,7 @@
             this.butFree.Enabled = false;
             this.butFree.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butFree.Location = new System.Drawing.Point(107, 39);
-            this.butFree.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butFree.Margin = new System.Windows.Forms.Padding(4);
             this.butFree.Name = "butFree";
             this.butFree.Size = new System.Drawing.Size(89, 37);
             this.butFree.TabIndex = 0;
@@ -602,7 +614,7 @@
             this.panel3.Controls.Add(this.listView1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(283, 297);
             this.panel3.TabIndex = 11;
@@ -618,7 +630,7 @@
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(283, 297);
@@ -637,18 +649,6 @@
             this.columnHeader2.Text = "Mã người đọc";
             this.columnHeader2.Width = 106;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(83, 5);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 23);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Chế độ";
-            // 
             // PhieuMuon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -656,7 +656,7 @@
             this.ClientSize = new System.Drawing.Size(895, 506);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(913, 553);
             this.MinimumSize = new System.Drawing.Size(913, 553);
             this.Name = "PhieuMuon";

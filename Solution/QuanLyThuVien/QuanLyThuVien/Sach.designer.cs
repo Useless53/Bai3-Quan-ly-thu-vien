@@ -98,7 +98,7 @@
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(896, 516);
             this.panel1.TabIndex = 0;
@@ -114,7 +114,7 @@
             this.panel8.Controls.Add(this.label16);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel8.Location = new System.Drawing.Point(521, 306);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(375, 210);
             this.panel8.TabIndex = 17;
@@ -124,7 +124,7 @@
             this.textUnique.BackColor = System.Drawing.Color.White;
             this.textUnique.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textUnique.Location = new System.Drawing.Point(160, 110);
-            this.textUnique.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textUnique.Margin = new System.Windows.Forms.Padding(4);
             this.textUnique.Name = "textUnique";
             this.textUnique.ReadOnly = true;
             this.textUnique.Size = new System.Drawing.Size(135, 22);
@@ -135,7 +135,7 @@
             this.textBookID2.BackColor = System.Drawing.Color.White;
             this.textBookID2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBookID2.Location = new System.Drawing.Point(160, 73);
-            this.textBookID2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBookID2.Margin = new System.Windows.Forms.Padding(4);
             this.textBookID2.Name = "textBookID2";
             this.textBookID2.ReadOnly = true;
             this.textBookID2.Size = new System.Drawing.Size(135, 22);
@@ -149,9 +149,9 @@
             this.label14.Location = new System.Drawing.Point(17, 110);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(75, 23);
+            this.label14.Size = new System.Drawing.Size(127, 23);
             this.label14.TabIndex = 17;
-            this.label14.Text = "Đơn giá";
+            this.label14.Text = "Giá trị cá biệt";
             // 
             // label15
             // 
@@ -190,7 +190,7 @@
             this.panel7.Controls.Add(this.label9);
             this.panel7.Controls.Add(this.butFree2);
             this.panel7.Location = new System.Drawing.Point(291, 314);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(225, 194);
             this.panel7.TabIndex = 16;
@@ -198,7 +198,7 @@
             // textSearch2
             // 
             this.textSearch2.Location = new System.Drawing.Point(21, 126);
-            this.textSearch2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearch2.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch2.Name = "textSearch2";
             this.textSearch2.Size = new System.Drawing.Size(173, 22);
             this.textSearch2.TabIndex = 11;
@@ -207,7 +207,7 @@
             // 
             this.butSearch2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butSearch2.Location = new System.Drawing.Point(21, 158);
-            this.butSearch2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearch2.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch2.Name = "butSearch2";
             this.butSearch2.Size = new System.Drawing.Size(175, 28);
             this.butSearch2.TabIndex = 10;
@@ -219,7 +219,7 @@
             // 
             this.butDel2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDel2.Location = new System.Drawing.Point(107, 81);
-            this.butDel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDel2.Margin = new System.Windows.Forms.Padding(4);
             this.butDel2.Name = "butDel2";
             this.butDel2.Size = new System.Drawing.Size(89, 37);
             this.butDel2.TabIndex = 5;
@@ -233,7 +233,7 @@
             this.radAdd2.BackColor = System.Drawing.Color.Transparent;
             this.radAdd2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd2.Location = new System.Drawing.Point(21, 63);
-            this.radAdd2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radAdd2.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd2.Name = "radAdd2";
             this.radAdd2.Size = new System.Drawing.Size(71, 23);
             this.radAdd2.TabIndex = 4;
@@ -247,7 +247,7 @@
             this.radEdit2.BackColor = System.Drawing.Color.Transparent;
             this.radEdit2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radEdit2.Location = new System.Drawing.Point(21, 91);
-            this.radEdit2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radEdit2.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit2.Name = "radEdit2";
             this.radEdit2.Size = new System.Drawing.Size(57, 23);
             this.radEdit2.TabIndex = 4;
@@ -262,7 +262,7 @@
             this.radView2.Checked = true;
             this.radView2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radView2.Location = new System.Drawing.Point(21, 34);
-            this.radView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radView2.Margin = new System.Windows.Forms.Padding(4);
             this.radView2.Name = "radView2";
             this.radView2.Size = new System.Drawing.Size(64, 23);
             this.radView2.TabIndex = 2;
@@ -288,7 +288,7 @@
             this.butFree2.Enabled = false;
             this.butFree2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butFree2.Location = new System.Drawing.Point(107, 37);
-            this.butFree2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butFree2.Margin = new System.Windows.Forms.Padding(4);
             this.butFree2.Name = "butFree2";
             this.butFree2.Size = new System.Drawing.Size(89, 37);
             this.butFree2.TabIndex = 0;
@@ -301,7 +301,7 @@
             this.panel6.Controls.Add(this.listView2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel6.Location = new System.Drawing.Point(0, 306);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(283, 210);
             this.panel6.TabIndex = 15;
@@ -318,7 +318,7 @@
             this.listView2.GridLines = true;
             this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(0, 0);
-            this.listView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView2.Margin = new System.Windows.Forms.Padding(4);
             this.listView2.MultiSelect = false;
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(283, 210);
@@ -334,7 +334,7 @@
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Đơn giá";
+            this.columnHeader4.Text = "Giá trị cá biệt";
             this.columnHeader4.Width = 151;
             // 
             // panel5
@@ -346,7 +346,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(896, 306);
             this.panel5.TabIndex = 14;
@@ -372,7 +372,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(521, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(375, 306);
             this.panel2.TabIndex = 13;
@@ -381,7 +381,7 @@
             // 
             this.textGenre.BackColor = System.Drawing.Color.White;
             this.textGenre.Location = new System.Drawing.Point(160, 158);
-            this.textGenre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textGenre.Margin = new System.Windows.Forms.Padding(4);
             this.textGenre.Name = "textGenre";
             this.textGenre.ReadOnly = true;
             this.textGenre.Size = new System.Drawing.Size(185, 27);
@@ -391,7 +391,7 @@
             // 
             this.textYear.BackColor = System.Drawing.Color.White;
             this.textYear.Location = new System.Drawing.Point(160, 231);
-            this.textYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textYear.Margin = new System.Windows.Forms.Padding(4);
             this.textYear.Name = "textYear";
             this.textYear.ReadOnly = true;
             this.textYear.Size = new System.Drawing.Size(185, 27);
@@ -401,7 +401,7 @@
             // 
             this.textAuthor.BackColor = System.Drawing.Color.White;
             this.textAuthor.Location = new System.Drawing.Point(160, 121);
-            this.textAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textAuthor.Margin = new System.Windows.Forms.Padding(4);
             this.textAuthor.Name = "textAuthor";
             this.textAuthor.ReadOnly = true;
             this.textAuthor.Size = new System.Drawing.Size(185, 27);
@@ -411,7 +411,7 @@
             // 
             this.textPrice.BackColor = System.Drawing.Color.White;
             this.textPrice.Location = new System.Drawing.Point(160, 268);
-            this.textPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPrice.Margin = new System.Windows.Forms.Padding(4);
             this.textPrice.Name = "textPrice";
             this.textPrice.ReadOnly = true;
             this.textPrice.Size = new System.Drawing.Size(185, 27);
@@ -421,7 +421,7 @@
             // 
             this.textPub.BackColor = System.Drawing.Color.White;
             this.textPub.Location = new System.Drawing.Point(160, 194);
-            this.textPub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPub.Margin = new System.Windows.Forms.Padding(4);
             this.textPub.Name = "textPub";
             this.textPub.ReadOnly = true;
             this.textPub.Size = new System.Drawing.Size(185, 27);
@@ -431,7 +431,7 @@
             // 
             this.textTittle.BackColor = System.Drawing.Color.White;
             this.textTittle.Location = new System.Drawing.Point(160, 84);
-            this.textTittle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTittle.Margin = new System.Windows.Forms.Padding(4);
             this.textTittle.Name = "textTittle";
             this.textTittle.ReadOnly = true;
             this.textTittle.Size = new System.Drawing.Size(185, 27);
@@ -441,7 +441,7 @@
             // 
             this.textBookID.BackColor = System.Drawing.Color.White;
             this.textBookID.Location = new System.Drawing.Point(160, 47);
-            this.textBookID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBookID.Margin = new System.Windows.Forms.Padding(4);
             this.textBookID.Name = "textBookID";
             this.textBookID.ReadOnly = true;
             this.textBookID.Size = new System.Drawing.Size(185, 27);
@@ -556,7 +556,7 @@
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.butFree);
             this.panel4.Location = new System.Drawing.Point(291, 15);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(225, 196);
             this.panel4.TabIndex = 12;
@@ -564,7 +564,7 @@
             // textSearch
             // 
             this.textSearch.Location = new System.Drawing.Point(21, 126);
-            this.textSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearch.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(173, 27);
             this.textSearch.TabIndex = 9;
@@ -573,7 +573,7 @@
             // 
             this.butSearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butSearch.Location = new System.Drawing.Point(21, 158);
-            this.butSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearch.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(175, 28);
             this.butSearch.TabIndex = 8;
@@ -585,7 +585,7 @@
             // 
             this.butDel.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDel.Location = new System.Drawing.Point(107, 81);
-            this.butDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDel.Margin = new System.Windows.Forms.Padding(4);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(89, 37);
             this.butDel.TabIndex = 5;
@@ -599,7 +599,7 @@
             this.radAdd.BackColor = System.Drawing.Color.Transparent;
             this.radAdd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd.Location = new System.Drawing.Point(21, 63);
-            this.radAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radAdd.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd.Name = "radAdd";
             this.radAdd.Size = new System.Drawing.Size(71, 23);
             this.radAdd.TabIndex = 4;
@@ -613,7 +613,7 @@
             this.radEdit.BackColor = System.Drawing.Color.Transparent;
             this.radEdit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radEdit.Location = new System.Drawing.Point(21, 91);
-            this.radEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radEdit.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit.Name = "radEdit";
             this.radEdit.Size = new System.Drawing.Size(57, 23);
             this.radEdit.TabIndex = 4;
@@ -628,7 +628,7 @@
             this.radView.Checked = true;
             this.radView.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radView.Location = new System.Drawing.Point(21, 34);
-            this.radView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radView.Margin = new System.Windows.Forms.Padding(4);
             this.radView.Name = "radView";
             this.radView.Size = new System.Drawing.Size(64, 23);
             this.radView.TabIndex = 2;
@@ -654,7 +654,7 @@
             this.butFree.Enabled = false;
             this.butFree.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butFree.Location = new System.Drawing.Point(107, 37);
-            this.butFree.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butFree.Margin = new System.Windows.Forms.Padding(4);
             this.butFree.Name = "butFree";
             this.butFree.Size = new System.Drawing.Size(89, 37);
             this.butFree.TabIndex = 0;
@@ -667,7 +667,7 @@
             this.panel3.Controls.Add(this.listView1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(283, 306);
             this.panel3.TabIndex = 11;
@@ -683,7 +683,7 @@
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(283, 306);
@@ -709,7 +709,7 @@
             this.ClientSize = new System.Drawing.Size(896, 516);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(914, 563);
             this.MinimumSize = new System.Drawing.Size(914, 563);
             this.Name = "Sach";
